@@ -18,12 +18,6 @@ class ChessBoard(ttk.Frame):
         self.colors = ("black", "white")
         self.setup_board()
 
-    @classmethod
-    def _from_rgb(cls, rgb):
-        """translates an rgb tuple of int to a tkinter friendly color code
-        """
-        return "#%02x%02x%02x" % rgb
-
     def setup_board(self):
         for i in range(8):
             for j in range(8):
@@ -32,5 +26,5 @@ class ChessBoard(ttk.Frame):
 
 
 if __name__ == "__main__":
-    app = App()
+    app = App()removed
     app.mainloop()
