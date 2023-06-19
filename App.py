@@ -25,7 +25,6 @@ class ChessBoard(ttk.Frame):
                 self.squares[i][j] = tk.Label(self, image=square, width=90, height=90, background=self.colors[(i+j)%2])
                 self.squares[i][j].grid(row=i, column=j)
 
-
 if __name__ == "__main__":
     app = App()
     app.mainloop()
