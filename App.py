@@ -21,10 +21,10 @@ class ChessBoard(ttk.Frame):
     def setup_board(self):
         for i in range(8):
             for j in range(8):
-                self.squares[i][j] = tk.Button(self, background=self.colors[(i+j) % 2], width=10, height=5)
+                self.squares[i][j] = tk.Button(self, background=self.colors[(i+j) % 2], width=10, height=10)
                 self.squares[i][j].grid(row=i, column=j)
 
 
 if __name__ == "__main__":
-    app = App()removed
+    app = App()
     app.mainloop()
