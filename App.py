@@ -26,5 +26,5 @@ class ChessBoard(ttk.Frame):
 
 
 if __name__ == "__main__":
-    app = App()
+    app = App()removed
     app.mainloop()
